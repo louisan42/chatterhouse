@@ -1,3 +1,7 @@
+"use client";
+
+import { createClient } from '@supabase/supabase-js';
+
 import React, { useState } from 'react';
 import Video from './video';
 
@@ -45,7 +49,6 @@ const ChatRoom: React.FC = () => {
       </button>
       </div>
       </div>
-    </div>
   );
 };
 
